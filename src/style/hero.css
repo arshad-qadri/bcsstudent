@@ -1,0 +1,206 @@
+.hero-sec {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://static.wixstatic.com/media/844f7a_ab7bd043456647f8ab9d75691630c3f9~mv2.jpg/v1/fill/w_640,h_238,al_c,q_80,usm_0.66_1.00_0.01/844f7a_ab7bd043456647f8ab9d75691630c3f9~mv2.webp");
+  background-repeat: no-repeat;
+  height: 85vh;
+  width: 100%;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-sec h2 {
+  color: #fff;
+  font-size: 60px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  font-weight: 700;
+  /* z-index: 1; */
+}
+.hero-sec p {
+  color: #fff;
+  font-size: 2em;
+  font-style: italic;
+  margin: 40px 0 0 0;
+  font-weight: 600;
+  text-align: center;
+  /* z-index: 1; */
+}
+.student-mng {
+  width: 100%;
+  height: 20vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  flex-wrap: wrap;
+}
+.student-mng span {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 500;
+}
+.student-mng span:nth-child(1) {
+  color: #389f2a;
+}
+.student-mng span:nth-child(2) {
+  color: #d67e40;
+}
+.student-mng span:nth-child(3) {
+  color: #0c0515;
+}
+.who-we-are .left,
+.who-we-are .right {
+  width: 100%;
+  height: 90vh;
+}
+.who-we-are .left {
+  background: url("https://static.wixstatic.com/media/6a57297c10c047c1a7700b8429a1162e.jpg/v1/fill/w_640,h_266,al_c,q_80,usm_0.66_1.00_0.01/6a57297c10c047c1a7700b8429a1162e.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.who-we-are .right {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("https://static.wixstatic.com/media/14d46ad0808141dba9bb6cab7fcdff0b.jpg/v1/fill/w_640,h_1034,al_c,q_85,usm_0.66_1.00_0.01/14d46ad0808141dba9bb6cab7fcdff0b.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: 50px;
+  padding-left: 100px;
+}
+.who-we-are .right p {
+  width: 70%;
+  font-size: 1.2em;
+  line-height: 40px;
+  font-weight: 100;
+}
+.who-we-are .right .button a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2em;
+  font-weight: 500;
+  padding: 10px 40px;
+  border: 1px solid #000;
+}
+.who-we-are .right .button a:nth-child(2) {
+  margin-left: 40px;
+}
+.who-we-are .right .button a:hover {
+  background: #000;
+  color: #fff;
+  transition: 0.5s;
+}
+.student-voice {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.student-voice .sv-left {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.student-voice .sv-right {
+  padding-right: 100px;
+  text-align: center;
+}
+.student-voice .sv-right h3 {
+  font-style: italic;
+}
+.student-voice .sv-right p {
+  font-size: 2em;
+  margin: 30px 0 0 0;
+  font-weight: 100;
+}
+.student-voice .sv-left img {
+  width: 50%;
+}
+.get-your {
+  height: 40vh;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.get-your h2 {
+  font-style: italic;
+  font-size: 2em;
+  font-weight: 500;
+}
+.get-your h2 span {
+  color: #d67e40;
+}
+.get-your p {
+  font-weight: 100;
+  font-size: 2em;
+}
+
+.get-your .button a {
+  text-decoration: none;
+  padding: 10px 40px;
+  color: #0c0515;
+  font-weight: 700;
+  border: 1px solid #0c0515;
+  margin: 0 10em;
+}
+.get-your .button a:hover {
+  background: #389f2a;
+  color: #fff;
+  transition: 0.5s;
+}
+.qoute {
+  height: 100vh;
+  width: 100%;
+  background: url("https://static.wixstatic.com/media/844f7a_fc3e3693ff3146d79f74b0beb478ea48~mv2_d_4047_2698_s_4_2.jpeg/v1/fill/w_640,h_736,al_c,q_85,usm_0.66_1.00_0.01/844f7a_fc3e3693ff3146d79f74b0beb478ea48~mv2_d_4047_2698_s_4_2.webp")
+    no-repeat fixed;
+  background-position: top -30%;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.qoute::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 20vh;
+  background-color: #fff;
+  bottom: 0;
+}
+.qoute h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+.qoute span {
+  width: 200px;
+  height: 1px;
+  background: #000;
+}
+.qoute p {
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px 0;
+}
+.blank {
+  width: 100%;
+  height: 1em;
+  background: #f2f2f2;
+}

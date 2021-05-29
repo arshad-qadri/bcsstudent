@@ -1,0 +1,18 @@
+.carousel-inner {
+  height: 70vh;
+}
+.slide img {
+  height: 70vh;
+}
+.carousel-caption a {
+  text-decoration: none;
+  padding: 8px 30px;
+  border: 1px solid #fff;
+  margin: 20px 0;
+  color: #fff;
+}
+.carousel-caption a:hover {
+  background: #fff;
+  color: #000;
+  transition: 0.5s;
+}
